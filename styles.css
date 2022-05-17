@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+.btn-start{
+    background-color: rgb(226, 134, 21);
+    color: white;
+    border: 2px solid #521751;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+    width: 10rem;
+    height: 2rem;
+}
+.container{
+    width: 800px;
+    height: 900px;
+    margin: 15px auto;
+    border: 2px solid black;
+    background-image: url("./assets/calender.jpg");
+   background-size: cover;
+   display: grid;
+   box-shadow: 5px 5px 20px blanchedalmond;
+   grid-template-columns: repeat(4,25%);
+   grid-template-rows: repeat(6,1fr);
+   grid-template-areas:
+   "door2 door22 door21 door20 "
+   "door1 door6 door4 door23 "
+   "door12 door13 door3 door7 "
+   "door14 door5 door16 door24 "
+   "door10 door15 door8 door9 "
+   "door11 door17 door19 door18 ";
+}
+.image{
+
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    
+}
+.text{
+    height: 100%;
+    width: 100%;
+    color:rgb(3, 3, 3);
+    padding: 10px;
+    border: 2px solid black;
+    transition:  opacity 2s;
+}
+
